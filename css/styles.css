@@ -1,0 +1,21 @@
+body {
+    background-color: #141518;
+}
+img {
+    object-fit: cover;
+    width: 100%;
+    opacity: 0;
+    transition: 1s;
+    
+}
+img.b-loaded {
+    opacity: 1;
+}
+figure {
+    margin: 0 auto 5%;
+    max-width: 90%;
+    overflow: hidden;
+    background-image: url('../images/spinner.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+}
